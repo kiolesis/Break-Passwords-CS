@@ -4,10 +4,7 @@ using System.Security.Cryptography;
 using System.IO;
 using System.Threading;
 
-// Hacker 2
-// 098f6bcd4621d373cade4e832627b4f6 = Hash "test"
-
-namespace BreakPassword
+namespace Password
 {
     class Program
     {
@@ -80,7 +77,7 @@ namespace BreakPassword
              
             }
         }
-        //this takes the file as an input string and outputs a md5 hash
+        
         public static string Md5Hash(string inputString)
         {
             StringBuilder sb = new StringBuilder();
